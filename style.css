@@ -17,11 +17,3 @@ padding-top: 1.111em;
 .hide {
   display: none;
 }
-
-height-none {
-height: 0px;
-}
-
-.height-auto {
-height: auto;
-}
