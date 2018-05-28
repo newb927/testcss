@@ -13,3 +13,11 @@ padding-top: 1.111em;
   bottom: 410px;
   padding-top: 1.111em;
 }
+
+height-none {
+height: 0px;
+}
+
+.height-auto {
+height: auto;
+}
