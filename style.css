@@ -14,6 +14,12 @@ padding-top: 1.111em;
   padding-top: 1.111em;
 }
 
+input#place_order {
+  height: 50px;
+}
+
+/* additional class not needed for test plan */
+
 .hide {
   display: none;
 }
