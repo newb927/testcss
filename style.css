@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+.test-sticky {
+width: 296px;
+position: fixed;
+top: 0;
+padding-top: 1.111em;
+}
