@@ -10,6 +10,7 @@
   /* by default hide all sub menus */
   display: none;
   padding-left: 0;
+  margin-left: 0;
   list-style: none;
 }
 .test-accordion-menu li {
