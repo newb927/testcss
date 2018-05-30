@@ -1,5 +1,6 @@
 .test-accordion-menu {
-  width: 100%;
+  width: 90%;
+  max-width: 600px;
   background: #fff;
   margin: 0.56rem 0 0.5rem;
   font-size: 1.11rem;
@@ -10,7 +11,6 @@
   /* by default hide all sub menus */
   display: none;
   padding-left: 0;
-  margin-left: 0 !important;
   list-style: none;
 }
 .test-accordion-menu li {
@@ -134,4 +134,19 @@ li#test-shop-all {
   -webkit-transition: -webkit-transform 0.3s;
   -moz-transition: -moz-transform 0.3s;
   transition: transform 0.3s;
+}
+
+a.test-tel {
+  border-bottom: none !important;
+  font-size: 14px;
+  padding-bottom: 0px !important;
+}
+
+a#test-mobile-nav-hours {
+ margin-top: 0px;
+ font-weight: 500 !important;
+}
+
+a.test-newsletter-btn {
+  border-bottom: 1px solid #000 !important;
 }
