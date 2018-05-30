@@ -150,3 +150,13 @@ a#test-mobile-nav-hours {
 a.test-newsletter-btn {
   border-bottom: 1px solid #000 !important;
 }
+#test-mobile-nav-account {
+  margin-top: 10px;
+}
+
+#test-mobile-nav-account a {
+  display: inline-block;
+  border-bottom: none !important;
+  padding-left: 0;
+  padding-right: 0;
+}
