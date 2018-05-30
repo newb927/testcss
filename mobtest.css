@@ -1,5 +1,3 @@
-@charset "UTF-8";
-
 .test-accordion-menu {
   width: 90%;
   max-width: 600px;
@@ -29,19 +27,22 @@
 .test-accordion-menu label {
   position: relative;
   display: block;
-  padding: 18px 18px 18px 20px;
+  padding: 18px 18px 18px 0px;
   background: #fff;
   border-bottom: 1px solid #d4dadc;
-  color: #333;
+  color: #000;
+  font-size: 18px;
+  font-weight: 600;
 }
 
 .test-accordion-menu a {
   position: relative;
   display: block;
-  padding: 18px 18px 18px 20px;
+  padding: 18px 18px 18px 0px;
   background: #fff;
   border-bottom: 1px solid #d4dadc;
-  color: #333;
+  color: #000;
+  font-weight: 600;
 }
 
 .test-accordion-menu li a sup {
@@ -73,14 +74,14 @@ ul#diffuser-blends {
 }
 
 .test-accordion-menu ul label {
-  background: #f4f6f6;
+  background: #fff;
   border-bottom: 1px solid #d4dadc;
-  padding-left: 20px;
+  padding-left: 0px;
 }
 
 .test-accordion-menu ul a {
-  background: #f4f6f6;
-  padding-left: 20px;
+  background: #fff;
+  padding-left: 0px;
 }
 
 .test-accordion-menu li.has-children ul li:last-of-type {
@@ -98,20 +99,21 @@ li#test-shop-all {
 
 .test-accordion-menu ul ul label,
 .test-accordion-menu ul ul a {
-  padding-left: 40px;
+  padding-left: 20px;
   border-bottom: none;
+  font-size: 16px;
 }
 
 .test-accordion-menu ul ul ul label {
-  padding-left: 60px;
+  padding-left: 40px;
 }
 
 .test-accordion-menu ul ul ul a {
-  padding-left: 80px;
+  padding-left: 60px;
 }
 
 #test-link-beanies {
-  padding-left: 60px !important;
+  padding-left: 40px !important;
 }
 
 .test-accordion-menu .fa-angle-right {
