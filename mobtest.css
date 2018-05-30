@@ -127,6 +127,10 @@ li#test-shop-all {
   transition: transform 0.3s;
 }
 
+li.test-contact a, li.test-about a {
+  padding-left: 20px;
+}
+
 a.test-tel {
   border-bottom: none !important;
   font-size: 14px;
