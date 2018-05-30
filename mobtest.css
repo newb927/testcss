@@ -111,21 +111,24 @@ li#test-shop-all {
   padding-left: 60px !important;
 }
 
-.test-accordion-menu .fa-angle-right {
+.test-accordion-menu i {
   margin-left: 10px;
-  color: #000;
+  color: #666;
   float: right;
   top: 8px;
   position: relative;
-  transition: transform 0.3s;
+  font-size: 18px;
+  font-weight: 100;
 }
 
-.test-accordion-menu input[type="checkbox"]:checked + label i {
-  -webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  transform: rotate(90deg);
+.test-accordion-menu input[type="checkbox"] + label i:before {
+ font-family: fontAwesome;
+  content: "\f067";
+}
+
+.test-accordion-menu input[type="checkbox"]:checked + label i:before {
+font-family: fontAwesome;
+  content: "\f068";
 }
 
 /*.test-accordion-menu.animated label::before {
