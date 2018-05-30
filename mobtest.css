@@ -112,13 +112,18 @@ li#test-shop-all {
 }
 
 .test-accordion-menu i {
-  margin-left: 10px;
   color: #000;
   float: right;
-  top: 8px;
   position: relative;
+  top: 8px;
   font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
   -webkit-text-stroke: 2px white;
+}
+
+.test-accordion-menu label[for="shop"] i {
+  top: 0;
 }
 
 .test-accordion-menu input[type="checkbox"] + label i:before {
