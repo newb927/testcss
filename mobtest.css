@@ -67,12 +67,12 @@ ul#diffuser-blends {
 .test-accordion-menu ul label {
   background: #fff;
   border-bottom: 1px solid #d4dadc;
-  padding-left: 0px;
+  padding-left: 20px;
 }
 
 .test-accordion-menu ul a {
   background: #fff;
-  padding-left: 0px;
+  padding-left: 20px;
 }
 
 .test-accordion-menu li.has-children ul li:last-of-type {
@@ -90,27 +90,27 @@ li#test-shop-all {
 
 .test-accordion-menu ul ul label,
 .test-accordion-menu ul ul a {
-  padding-left: 20px;
+  padding-left: 40px;
   border-bottom: none;
   font-size: 16px;
 }
 
 .test-accordion-menu ul ul ul label {
-  padding-left: 40px;
-}
-
-.test-accordion-menu ul ul ul a {
   padding-left: 60px;
 }
 
+.test-accordion-menu ul ul ul a {
+  padding-left: 80px;
+}
+
 #test-link-beanies {
-  padding-left: 40px !important;
+  padding-left: 80px !important;
 }
 
 .test-accordion-menu .fa-angle-right {
   margin-left: 10px;
   color: #000;
-  transition: transform 0.5s;
+  transition: transform 0.3s;
 }
 
 .test-accordion-menu input[type="checkbox"]:checked + label i {
@@ -121,11 +121,11 @@ li#test-shop-all {
   transform: rotate(90deg);
 }
 
-.test-accordion-menu.animated label::before {
+/*.test-accordion-menu.animated label::before {
   -webkit-transition: -webkit-transform 0.3s;
   -moz-transition: -moz-transform 0.3s;
   transition: transform 0.3s;
-}
+}*/
 
 li.test-contact a, li.test-about a {
   padding-left: 20px;
