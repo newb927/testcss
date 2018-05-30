@@ -145,6 +145,7 @@ a.test-tel {
 a#test-mobile-nav-hours {
  margin-top: 0px;
  font-weight: 500 !important;
+  font-size: 14px;
 }
 
 a.test-newsletter-btn {
@@ -152,11 +153,12 @@ a.test-newsletter-btn {
 }
 #test-mobile-nav-account {
   margin-top: 10px;
+  text-align: center;
 }
 
 #test-mobile-nav-account a {
   display: inline-block;
+  font-size: 14px;
   border-bottom: none !important;
-  padding-left: 0;
-  padding-right: 0;
+  padding: 0;
 }
