@@ -1,6 +1,5 @@
 .test-accordion-menu {
-  width: 90%;
-  max-width: 600px;
+  width: 100%;
   background: #fff;
   margin: 0.56rem 0 0.5rem;
   font-size: 1.11rem;
@@ -32,7 +31,6 @@
   border-bottom: 1px solid #d4dadc;
   color: #000;
   font-size: 18px;
-  font-weight: 600;
 }
 
 .test-accordion-menu a {
@@ -41,7 +39,7 @@
   padding: 18px 18px 18px 0px;
   background: #fff;
   border-bottom: 1px solid #d4dadc;
-  color: #000;
+  color: #000 !important;
   font-weight: 600;
 }
 
