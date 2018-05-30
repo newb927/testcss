@@ -60,10 +60,6 @@ ul#diffuser-blends {
   border-bottom: none !important;
 }
 
-#test-jiva a {
-  padding-left: 60px !important;
-}
-
 .test-accordion-menu input[type="checkbox"]:checked + label {
   border-bottom: none;
 }
@@ -104,7 +100,11 @@ li#test-shop-all {
 }
 
 .test-accordion-menu ul ul ul a {
-  padding-left: 80px;
+  padding-left: 60px;
+}
+
+.test-accordion-menu ul ul ul ul a {
+    padding-left: 80px;
 }
 
 #test-link-beanies {
