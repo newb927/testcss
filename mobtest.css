@@ -60,6 +60,10 @@ ul#diffuser-blends {
   border-bottom: none !important;
 }
 
+#test-jiva a {
+  padding-left: 60px !important;
+}
+
 .test-accordion-menu input[type="checkbox"]:checked + label {
   border-bottom: none;
 }
@@ -108,6 +112,7 @@ li#test-shop-all {
 }
 
 .test-accordion-menu .fa-angle-right {
+  margin-left: 10px;
   color: #000;
   float: right;
   top: 8px;
