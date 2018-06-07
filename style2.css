@@ -1,5 +1,13 @@
 @charset "UTF-8";
 
+.test-faq-container {
+  border-top : 1px solid #CCC;
+}
+
+.test-faq-container .container {
+  padding-top: 2.5em;
+}
+
 .front-faqs ul {
     margin: 0;
     list-style: none;
@@ -17,19 +25,18 @@ li.more-faqs a {
     margin-bottom: .833em;
     padding: .444em;
     color: #000;
-    
     line-height: 1.8em;
     text-align: center;
     border: 1px solid #000;
 }
 
-.test-faq-container {
-  border-top : 1px solid #CCC;
+@media (max-width: 767px)
+.front-faqs {
+    margin-top: 1.389em;
+    width: 100%;
 }
 
-.test-faq-container .container {
-  padding-top: 2.5em;
-}
+
 
 .front-faqs li {
   border-bottom: 1px solid #ccc;
