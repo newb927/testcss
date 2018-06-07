@@ -1,5 +1,17 @@
 @charset "UTF-8";
 
+.front-faqs ul {
+    margin: 0;
+    list-style: none;
+}
+
+.front-faqs li a {
+    color: #000 !important;
+    text-decoration: none;
+    transition: color .15s;
+    -webkit-transition: color .15s;
+}
+
 li.more-faqs a {
   display: block;
     margin-bottom: .833em;
