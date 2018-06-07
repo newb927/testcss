@@ -1,15 +1,11 @@
 @charset "UTF-8";
 
 label.switch-more-faqs {
-  display: none;
-}
-
-.test-faq-container {
-  border-top : 1px solid #CCC;
+  display: none !important;
 }
 
 .test-faq-container .container {
-  padding-top: 2.5em;
+  padding-bottom: 25px;
 }
 
 .test-faq-container h2 {
