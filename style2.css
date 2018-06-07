@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+label.switch-more-faqs {
+  display: none;
+}
+
 .test-faq-container {
   border-top : 1px solid #CCC;
 }
