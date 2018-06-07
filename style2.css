@@ -12,6 +12,10 @@ label.switch-more-faqs {
   padding-top: 2.5em;
 }
 
+.test-faq-container h2 {
+  margin-bottom: 34px;
+}
+
 .front-faqs ul {
     margin: 0;
     list-style: none;
