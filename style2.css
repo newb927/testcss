@@ -40,8 +40,6 @@ li.more-faqs a {
     width: 100%;
 }
 
-
-
 .front-faqs li {
   border-bottom: 1px solid #ccc;
   line-height: 1;
@@ -54,7 +52,7 @@ li.more-faqs a {
 
 .front-faqs li:last-of-type {
   border-bottom: none;
-  margin-top: 20px;
+  margin-top: 35px;
 }
 
 .front-faqs li a {
