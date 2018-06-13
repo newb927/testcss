@@ -17,7 +17,7 @@ position: fixed !important;
 bottom: 25px !important;
 left: 20px !important;
 right: 20px !important;
-z-index: 1 !important;
+z-index: 9999999 !important;
 width: auto !important;
 background-color: #69639a !important;
 border: none !important;
@@ -38,21 +38,5 @@ background: white;
 position: fixed;
 bottom: 0px;
 box-shadow: 0 -2px 5px 0 rgba(0, 0, 0, 0.1);
-}
-
-// css to position iframe in header
-
-.zEWidget-launcher.test-top {
-margin: 0 !important;
-top: 0 !important;
-bottom: initial !important;
-right: 80px !important;
-}
-
-.zEWidget-launcher.test-top .u-borderTransparent {
-    border: none !important;
-}
-
-.zEWidget-launcher.test-top .u-userLauncherColor {
-background-color: transparent !important;
+z-index: 999999;
 }
