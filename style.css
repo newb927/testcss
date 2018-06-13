@@ -1,23 +1,14 @@
 #site-header.headroom--unpinned {
-  transform: none !important;
   border-bottom: none !important;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1) !important;
 }
 
-header#site-header.headroom--not-top {
-    transition: transform 0s !important;
-}
-
-#logo-link:before, html.js body.has-hero #logo-link:after, #site-header label[for=switch-mobile_nav]>span, #site-header label[for=switch-mobile_nav]>span:before {
-transition: opacity .0s !important;
-}
-
-.product-add-wrap {
+.product-add-wrap.test-persistent {
 position: fixed !important;
 bottom: 25px !important;
 left: 20px !important;
 right: 20px !important;
-z-index: 9999999 !important;
+z-index: 9999999;
 width: auto !important;
 background-color: #69639a !important;
 border: none !important;
@@ -38,5 +29,9 @@ background: white;
 position: fixed;
 bottom: 0px;
 box-shadow: 0 -2px 5px 0 rgba(0, 0, 0, 0.1);
+z-index: -999999;
+}
+
+#persistent-atc-bg.test-persistent {
 z-index: 999999;
 }
