@@ -4,6 +4,10 @@
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1) !important;
 }
 
+header#site-header.headroom--not-top {
+    transition: transform 0s !important;
+}
+
 .product-add-wrap {
 position: fixed !important;
 bottom: 25px !important;
