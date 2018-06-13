@@ -1,4 +1,4 @@
-#site-header.headroom--unpinned {
+#site-header.headroom headroom--not-bottom.headroom--not-top.headroom--pinned {
   border-bottom: none !important;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1) !important;
 }
