@@ -14,7 +14,7 @@ background-color: #69639a;
 border: none;
 }
 
-.product-add-wrap.test-transition {
+.product-add-wrap.test-persistent.test-transition {
 bottom: 25px;
 transition: bottom .5s;
 }
