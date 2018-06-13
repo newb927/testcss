@@ -15,12 +15,10 @@ border: none;
 }
 
 .product-add-wrap.test-transition {
+bottom: 25px;
 transition: bottom .5s;
 }
 
-.product-add-wrap.test-persistent-transitioned {
-bottom: 25px;
-}
 
 .product-add-wrap.test-persistent .price {
 border-right: 1px solid #fff !important;
@@ -41,9 +39,7 @@ z-index: 999999;
 }
   
 #persistent-atc-bg.test-transition {
+  bottom: 0px;  
   transition: bottom .5s;
 }
 
-#persistent-atc-bg.test-persistent {
-  bottom: 0px;
-}
