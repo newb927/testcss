@@ -3,11 +3,11 @@
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1) !important;
 }
 
-.product-add-wrap.test-persistent .price {
+.product-add-wrap.persistent .price {
 border-right: 1px solid #fff !important;
 }
 
-.product-add-wrap.test-persistent .amount, .product-add-wrap.test-persistent .woocommerce-Price-currencySymbol, .product-add-wrap.test-persistent .cart:before {
+.product-add-wrap.persistent .amount, .product-add-wrap.persistent .woocommerce-Price-currencySymbol, .product-add-wrap.persistent .cart:before {
 color: #fff !important;
 }
 
