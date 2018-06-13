@@ -23,7 +23,7 @@ border-right: 1px solid #fff !important;
 }
 
 .product-add-wrap .amount, .product-add-wrap .woocommerce-Price-currencySymbol, .product-add-wrap .cart:before {
-color: #fff;
+color: #fff !important;
 }
 
 #persistent-atc-bg {
