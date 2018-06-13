@@ -3,23 +3,6 @@
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1) !important;
 }
 
-.product-add-wrap.test-persistent {
-position: fixed;
-bottom: -50px;
-left: 20px;
-right: 20px;
-z-index: 9999999;
-width: auto;
-background-color: #69639a;
-border: none;
-}
-
-.product-add-wrap.test-persistent.test-transition {
-bottom: 25px;
-transition: bottom .5s;
-}
-
-
 .product-add-wrap.test-persistent .price {
 border-right: 1px solid #fff !important;
 }
@@ -28,18 +11,27 @@ border-right: 1px solid #fff !important;
 color: #fff !important;
 }
 
+.product-add-wrap.persistent {
+position: fixed;
+bottom: 25px;
+left: 20px;
+right: 20px;
+z-index: 9999999;
+width: auto;
+background-color: #69639a;
+border: none;
+}
+
 #persistent-atc-bg {
 width: 100%;
 height: 97px;
 background: #fff;
 position: fixed;
-bottom: -97px;
+bottom: 0px;
 box-shadow: 0 -2px 5px 0 rgba(0, 0, 0, 0.1);
-z-index: 999999;
+z-index: -999999;
 }
   
-#persistent-atc-bg.test-transition {
-  bottom: 0px;  
-  transition: bottom .5s;
+#persistent-atc-bg.persistent {
+z-index: 999999;
 }
-
