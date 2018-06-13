@@ -3,20 +3,23 @@
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1) !important;
 }
 
-.product-add-wrap {
-  transition: transform .5s; 
-}
-
 .product-add-wrap.test-persistent {
 position: fixed;
-bottom: 25px;
+bottom: -50px;
 left: 20px;
 right: 20px;
 z-index: 9999999;
 width: auto;
 background-color: #69639a;
 border: none;
-transform: translateY(160%);
+}
+
+.product-add-wrap.test-transition {
+transition: bottom .5s;
+}
+
+.product-add-wrap.test-persistent-transitioned {
+bottom: 25px;
 }
 
 .product-add-wrap.test-persistent .price {
@@ -32,13 +35,15 @@ width: 100%;
 height: 97px;
 background: #fff;
 position: fixed;
-bottom: 0px;
+bottom: -97px;
 box-shadow: 0 -2px 5px 0 rgba(0, 0, 0, 0.1);
 z-index: 999999;
-transform: translateY(105%);
-transition: transform .5s; 
+}
+  
+#persistent-atc-bg.test-transition {
+  transition: bottom .5s;
 }
 
 #persistent-atc-bg.test-persistent {
-transform: translateY(105%);
+  bottom: 0px;
 }
