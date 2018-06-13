@@ -8,6 +8,10 @@ header#site-header.headroom--not-top {
     transition: transform 0s !important;
 }
 
+#logo-link:before, html.js body.has-hero #logo-link:after, #site-header label[for=switch-mobile_nav]>span, #site-header label[for=switch-mobile_nav]>span:before {
+transition: opacity .0s !important;
+}
+
 .product-add-wrap {
 position: fixed !important;
 bottom: 25px !important;
