@@ -1,10 +1,7 @@
-#site-header {
-border-bottom: none;
-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
-}
-
 #site-header.headroom--unpinned {
-    transform: none !important;
+  transform: none !important;
+  border-bottom: none !important;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1) !important;
 }
 
 .product-add-wrap {
