@@ -37,17 +37,17 @@ box-shadow: 0 -2px 5px 0 rgba(0, 0, 0, 0.1);
 
 // css to position iframe in header
 
-#launcher.test-top {
+.zEWidget-launcher.test-top {
 margin: 0 !important;
 top: 0 !important;
 bottom: initial !important;
 right: 80px !important;
 }
 
-#launcher.test-top .u-borderTransparent {
+.zEWidget-launcher.test-top .u-borderTransparent {
     border: none !important;
 }
 
-#launcher.test-top .u-userLauncherColor {
+.zEWidget-launcher.test-top .u-userLauncherColor {
 background-color: transparent !important;
 }
