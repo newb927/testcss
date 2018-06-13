@@ -1,29 +1,53 @@
-@charset "UTF-8";
+#site-header {
+border-bottom: none;
+box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+}
 
-.test-sticky {
-width: 296px;
+#site-header.headroom--unpinned {
+    transform: none !important;
+}
+
+.product-add-wrap {
 position: fixed;
-top: 0;
-padding-top: 1.111em;
+bottom: 25px;
+left: 20px;
+right: 20px;
+z-index: 1;
+width: auto;
+background-color: #69639a;
+border: none;
 }
 
-.test-static {
-  width: 296px;
-  position: absolute;
-  bottom: 410px;
-  padding-top: 1.111em;
+.product-add-wrap .price {
+border-right: 1px solid #fff !important;
 }
 
-#order_review_heading {
-  margin-top: 30px;
+.product-add-wrap .amount, .product-add-wrap .woocommerce-Price-currencySymbol, .product-add-wrap .cart:before {
+color: #fff;
 }
 
-input#place_order {
-  height: 50px;
+#persistent-atc-bg {
+width: 100%;
+height: 97px;
+background: white;
+position: fixed;
+bottom: 0px;
+box-shadow: 0 -2px 5px 0 rgba(0, 0, 0, 0.1);
 }
 
-/* additional class not needed for test plan */
+// css to position iframe in header
 
-.hide {
-  display: none;
+#launcher.test-top {
+margin: 0 !important;
+top: 0 !important;
+bottom: initial !important;
+right: 80px !important;
+}
+
+#launcher.test-top .u-borderTransparent {
+    border: none !important;
+}
+
+#launcher.test-top .u-userLauncherColor {
+background-color: transparent !important;
 }
