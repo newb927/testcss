@@ -3,15 +3,20 @@
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1) !important;
 }
 
+.product-add-wrap {
+  transition: transform .5s; 
+}
+
 .product-add-wrap.test-persistent {
-position: fixed !important;
-bottom: 25px !important;
-left: 20px !important;
-right: 20px !important;
+position: fixed;
+bottom: 25px;
+left: 20px;
+right: 20px;
 z-index: 9999999;
-width: auto !important;
-background-color: #69639a !important;
-border: none !important;
+width: auto;
+background-color: #69639a;
+border: none;
+transform: translateY(160%);
 }
 
 .product-add-wrap.test-persistent .price {
@@ -25,13 +30,15 @@ color: #fff !important;
 #persistent-atc-bg {
 width: 100%;
 height: 97px;
-background: white;
+background: #fff;
 position: fixed;
 bottom: 0px;
 box-shadow: 0 -2px 5px 0 rgba(0, 0, 0, 0.1);
-z-index: -999999;
+z-index: 999999;
+transform: translateY(105%);
+transition: transform .5s; 
 }
 
 #persistent-atc-bg.test-persistent {
-z-index: 999999;
+transform: translateY(105%);
 }
