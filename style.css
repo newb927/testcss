@@ -18,7 +18,6 @@ left: 20px;
 right: 20px;
 z-index: 9999999;
 width: auto;
-background-color: #69639a;
 }
 
 #persistent-atc-bg {
@@ -33,4 +32,48 @@ z-index: -999999;
 #persistent-atc-bg.persistent {
 z-index: 999999;
 box-shadow: 0 -2px 5px 0 rgba(0, 0, 0, 0.1);
+}
+
+.test-atc-zen {
+  background-color: #69639a;
+}
+
+.test-atc-happy {
+  background-color: #fac649;
+}
+
+.test-atc-sexy {
+  background-color: #fac649;
+}
+
+.test-atc-sleepy {
+  background-color: #888788;
+}
+
+.test-atc-vibrant {
+  background-color: #f5a21a;
+}
+
+.test-atc-active {
+  background-color: #f5a21a;
+}
+
+.test-atc-healthy {
+  background-color: #f5a21a;
+}
+
+.test-atc-forest {
+  background-color: #8ead7c;
+}
+
+.test-atc-ocean {
+  background-color: #8ead7c;
+}
+
+.test-atc-mountain {
+  background-color: #;
+}
+
+.test-atc-love {
+  background-color: #;
 }
