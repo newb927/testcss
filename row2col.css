@@ -79,15 +79,16 @@
   .blends-diffuser-content {
     padding-top: 15px !important;
     padding-right: 0px !important;
-    width: 70% !important;
-    /*margin-left: auto;
-margin-right: auto;*/
-    margin-bottom: 10px;
+    width: 90% !important;
+    margin-left: auto;
+    margin-right: auto;
     text-align: left;
+    margin-bottom: 10px;
   }
 
   .diffuser-products .blends-diffuser-content .diffuser-desc-lists {
     margin-bottom: 10px !important;
+    text-align: center;
   }
 
   .diffuser-products .add-cart-product .add_to_cart_inline {
