@@ -13,6 +13,7 @@
     /*-ms-flex-pack: inherit;*/
     -webkit-justify-content: inherit !important;
     justify-content: inherit;
+    width: 60%;
   }
 
   .diffuser-products .blends-diffuser img {
