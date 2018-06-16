@@ -78,7 +78,7 @@ margin-right: auto;*/
   }
 
   .diffuser-products .blends-diffuser-content .diffuser-desc-lists {
-    margin-bottom: 10px;
+    margin-bottom: 10px !important;
   }
 
   .diffuser-products .add-cart-product .add_to_cart_inline {
