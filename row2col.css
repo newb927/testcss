@@ -127,7 +127,6 @@
 
 .diffuser-products .add_to_cart_inline .button:after, .products-grid-box .add_to_cart_inline .button:after {
 font-size: 1rem;
-left: auto;
 }
 
   .diffuser-products:not(.outofstock)
@@ -140,6 +139,7 @@ left: auto;
     text-align: left;
     font-size: 1rem;
     line-height: 1rem;
+    left: auto;
   }
 
   .diffuser-products .blends-diffuser-content .diffuser-desc-lists li {
