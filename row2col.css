@@ -35,8 +35,8 @@
 @media (max-width: 767px) {
   .diffuser-products {
     /*-ms-flex-pack: column;*/ /*find vendor prefix and syntax */
-    -webkit-flex-direction: column;
-    flex-direction: column;
+    -webkit-flex-direction: column !important;
+    flex-direction: column !important;
     padding-top: 90px;
   }
 
