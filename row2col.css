@@ -134,7 +134,7 @@ font-size: 1rem;
     .button.ajax_add_to_cart:after,
   .products-grid-box .add_to_cart_inline .button.ajax_add_to_cart:after {
     content: "Add to Cart" !important;
-    width: 55%;
+    width: 55% !important;
     right: 0px;
     text-align: left;
     font-size: 1rem;
