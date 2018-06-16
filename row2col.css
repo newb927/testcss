@@ -41,7 +41,7 @@
   }
 
   .diffuser-products .blends-diffuser {
-    width: 100%;
+    width: 100% !important;
     /*min-width: unset;*/
     height: 52px; /* optional */
     /*-ms-flex-pack: center;*/
