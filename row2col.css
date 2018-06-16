@@ -122,14 +122,14 @@
 
   .diffuser-products .add_to_cart_inline .button,
   .products-grid-box .add_to_cart_inline .button {
-    height: 50px !important;
+    height: 47px !important;
     margin-left: auto !important;
     margin-right: 0;
     width: 100% !important;
   }
 
 .diffuser-products .add_to_cart_inline .button:after, .products-grid-box .add_to_cart_inline .button:after {
-font-size: 1rem;
+font-size: 16rem;
 }
 
   .diffuser-products:not(.outofstock)
@@ -140,7 +140,7 @@ font-size: 1rem;
     width: 55%;
     right: 0px;
     text-align: left;
-    font-size: 1rem;
+    font-size: 16px;
     line-height: 1rem;
     left: auto;
   }
