@@ -6,10 +6,10 @@
   }
 
   .diffuser-products .blends-diffuser {
-    height: auto;
-    width: auto;
+    height: auto !important;
+    width: auto !important;
     /*-ms-flex-pack: inherit;*/
-    -webkit-justify-content: inherit;
+    -webkit-justify-content: inherit !important;
     justify-content: inherit;
   }
 
