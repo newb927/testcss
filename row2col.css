@@ -45,7 +45,7 @@
   .diffuser-products .blends-diffuser {
     width: 100% !important;
     /*min-width: unset;*/
-    height: 52px; /* optional */
+    height: auto !important;
     /*-ms-flex-pack: center;*/
     -webkit-justify-content: center;
     justify-content: center;
@@ -73,6 +73,7 @@
     margin-left: auto;
     margin-right: auto;
     color: #272727;
+    position: unset;
   }
 
   .blends-diffuser-content {
