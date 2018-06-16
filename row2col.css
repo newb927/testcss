@@ -134,12 +134,11 @@ font-size: 1rem;
     .button.ajax_add_to_cart:after,
   .products-grid-box .add_to_cart_inline .button.ajax_add_to_cart:after {
     content: "Add to Cart" !important;
-    width: 55% !important;
+    width: 55%;
     right: 0px;
     text-align: left;
     font-size: 1rem;
     line-height: 1rem;
-    width: 55%;
   }
 
   .diffuser-products .blends-diffuser-content .diffuser-desc-lists li {
