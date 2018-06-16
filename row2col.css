@@ -89,6 +89,12 @@
   .diffuser-products .blends-diffuser-content .diffuser-desc-lists {
     margin-bottom: 10px !important;
     text-align: center;
+    width: 100%;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
   }
 
   .diffuser-products .add-cart-product .add_to_cart_inline {
@@ -144,6 +150,5 @@ font-size: 1rem;
 
   .diffuser-products .blends-diffuser-content .diffuser-desc-lists li {
     display: inline-block;
-    width: 33.33%;
   }
 }
