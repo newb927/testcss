@@ -100,8 +100,8 @@
   }
 
   .diffuser-products .add_to_cart_inline .amount {
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
     position: absolute;
     left: 0;
     height: 30px;
@@ -111,8 +111,8 @@
     top: 0;
     border-right: 1px solid black;
     bottom: 0;
-    margin-top: auto;
-    margin-bottom: auto;
+    margin-top: auto !important;
+    margin-bottom: auto !important;
     display: inline-block;
     padding-right: 4%;
   }
