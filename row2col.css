@@ -19,8 +19,8 @@
   }
 
   .diffuser-products .top-gradient {
-    height: 100%;
-    /*padding-left: something; */
+    height: 100% !important;
+    /*padding-left: 20px; */
   }
 
   .diffuser-products .top-gradient .blends-title {
