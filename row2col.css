@@ -14,8 +14,8 @@
   }
 
   .diffuser-products .blends-diffuser img {
-    transform: none;
-    margin-top: 0;
+    transform: none !important;
+    margin-top: 0 !important;
   }
 
   .diffuser-products .top-gradient {
