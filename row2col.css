@@ -54,11 +54,11 @@
   .diffuser-products .blends-diffuser img {
     min-width: unset !important;
     max-width: 90% !important;
-    -webkit-transform: none;
-    transform: none;
-    margin-left: 0;
+    -webkit-transform: none !important;
+    transform: none !important;
+    margin-left: 0 !important;
     margin-right: 0;
-    position: unset;
+    position: unset !important;
   }
 
   .diffuser-products .top-gradient {
