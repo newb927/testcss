@@ -67,11 +67,12 @@
   }
 
   .diffuser-products .top-gradient .blends-title {
-    text-align: left;
+    text-align: center;
     padding-top: 15px;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
+    color: #272727;
   }
 
   .blends-diffuser-content {
