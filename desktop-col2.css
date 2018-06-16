@@ -1,40 +1,41 @@
 .diffuser-products {
-flex-direction: column;
-width: 31.67%;
+flex-direction: column !important;
+width: 31.67% !important;
 
 }
 
 .diffuser-products .blends-diffuser-content {
-text-align: center;
+text-align: center !important;
 }
 
 .diffuser-products .blends-diffuser {
-width: 100%;
-height: auto;
-margin-left: auto;
-margin-right: auto;
+width: 100% !important;
+height: auto !important;
+margin-left: auto !important;
+margin-right: auto !important;
 }
 
 .diffuser-products .blends-diffuser img {
-margin-left: auto;
-margin-right: auto;
-margin-top: 0;
-transform: none;
--webkit-transform: none;
-position: unset;
-max-width: 100%;
-display: block;
+margin-left: auto !important;
+margin-right: auto !important;
+margin-top: 0 !important;
+transform: none !important;
+-webkit-transform: none !important;
+position: unset !important;
+max-width: 90% !important;
+min-width: unset !important;
+display: block !important;
 }
 
 
 .diffuser-products .top-gradient {
-padding-left: 0;
-height: 30%;
+padding-left: 0 !important;
+height: 30% !important;
 }
 
 .diffuser-products .top-gradient .blends-title {
-width: 100%;
-text-align: center;
-padding-top: 1.667rem;
-position: unset;
+width: 100% !important;
+text-align: center !important;
+padding-top: 1.667rem !important;
+position: unset !important;
 }
