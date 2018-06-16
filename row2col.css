@@ -37,9 +37,9 @@
     /*-ms-flex-pack: column;*/ /*find vendor prefix and syntax */
     -webkit-flex-direction: column !important;
     flex-direction: column !important;
-    -webkit-justify-content: center;
-    justify-content: center;
-    padding-top: 90px;
+    -webkit-justify-content: center !important;
+    justify-content: center !important;
+    padding-top: 90px !important;
   }
 
   .diffuser-products .blends-diffuser {
