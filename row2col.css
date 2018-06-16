@@ -1,5 +1,5 @@
 @media (min-width: 768px) {
-  .diffusor-products {
+  .diffuser-products {
     width: 100%;
     padding-top: 0px;
     padding-bottom: 15px;
@@ -33,7 +33,7 @@
 }
 
 @media (max-width: 767px) {
-  .diffusor-products {
+  .diffuser-products {
     /*-ms-flex-pack: column;*/ /*find vendor prefix and syntax */
     -webkit-flex-direction: column;
     flex-direction: column;
