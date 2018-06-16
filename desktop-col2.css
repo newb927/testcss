@@ -24,6 +24,7 @@ transform: none !important;
 position: unset !important;
 max-width: 90% !important;
 min-width: unset !important;
+width: auto !important;
 display: block !important;
 }
 
