@@ -68,9 +68,9 @@
   }
 
   .blends-diffuser-content {
-    padding-top: 15px;
-    padding-right: 0px;
-    width: 70%;
+    padding-top: 15px !important;
+    padding-right: 0px !important;
+    width: 70% !important;
     /*margin-left: auto;
 margin-right: auto;*/
     margin-bottom: 10px;
