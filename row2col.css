@@ -1,8 +1,8 @@
 @media (min-width: 768px) {
   .diffuser-products {
-    width: 100%;
-    padding-top: 0px;
-    padding-bottom: 15px;
+    width: 100% !important;
+    padding-top: 0px !important;
+    padding-bottom: 15px !important;
   }
 
   .diffuser-products .blends-diffuser {
