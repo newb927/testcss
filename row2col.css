@@ -33,7 +33,7 @@
   }
 
   .diffuser-products .add-cart-product .add_to_cart_inline {
-    bottom: 3.222em;
+    bottom: 3.222em !important;
   }
 }
 
