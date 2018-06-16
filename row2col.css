@@ -54,6 +54,7 @@
     max-width: 90% !important;
     -webkit-transform: none;
     transform: none;
+    margin-left: 0;
   }
 
   .diffuser-products .top-gradient {
