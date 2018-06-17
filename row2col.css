@@ -117,10 +117,6 @@
     text-align: center;
     width: 100%;
   }
-  
-  .diffuser-products .add-cart-product .add_to_cart_inline:focus {
-   color: #fff; 
-  }
 
   .diffuser-products .add-cart-product .add_to_cart_inline {
     width: 90%;
@@ -128,6 +124,10 @@
     margin-right: auto;
     left: 0;
     right: 0 !important;
+  }
+  
+  .diffuser-products .add-cart-product .add_to_cart_inline:focus {
+   color: #fff; 
   }
 
   .diffuser-products .add_to_cart_inline .amount {
