@@ -47,21 +47,18 @@
 
 @media (max-width: 767px) {
   .diffuser-products {
-    /*-ms-flex-pack: column;*/ /*find vendor prefix and syntax */
-    -webkit-flex-direction: column !important;
-    flex-direction: column !important;
-    -webkit-justify-content: center !important;
-    justify-content: center !important;
-    padding-top: 90px !important;
+    padding-bottom: 100px;
   }
 
   .diffuser-products .blends-diffuser {
     width: 100% !important;
-    /*min-width: unset;*/
     height: auto !important;
     /*-ms-flex-pack: center;*/
     -webkit-justify-content: center;
     justify-content: center;
+    margin-top: -15px !important;
+    position: absolute !important;
+    bottom: 100px !important;
   }
 
   .diffuser-products .blends-diffuser img {
