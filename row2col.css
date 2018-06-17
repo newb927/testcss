@@ -25,16 +25,10 @@
   }
   
   .diffuser-products .blends-diffuser-content {
-    width: 34% !important;
+    width: auto !important;
     padding-top: 0px !important;
     padding-bottom: 0px !important;
-    display: inline-block;
-    text-align: center;
-  }
-  
-  .diffuser-products .blends-diffuser-content .diffuser-desc-lists {
-   display: inline-block;
-   text-align: center;
+    margin-left: 9%;
   }
 
   .diffuser-products .top-gradient {
