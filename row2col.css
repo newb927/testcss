@@ -9,11 +9,11 @@
 
   .diffuser-products .blends-diffuser {
     height: auto !important;
-    width: auto !important;
+    width: 60% !important;
     /*-ms-flex-pack: inherit;*/
     -webkit-justify-content: inherit !important;
     justify-content: inherit;
-    width: 60%;
+
   }
 
   .diffuser-products .blends-diffuser img {
