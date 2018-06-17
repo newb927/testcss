@@ -76,16 +76,21 @@
   .diffuser-products .top-gradient {
     height: 100% !important;
     padding-left: 0px !important;
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
   }
 
   .diffuser-products .top-gradient .blends-title {
     text-align: center;
-    padding-top: 30px;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    /*color: #272727 !important;*/
-    position: unset !important;
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    position: absolute !important;
+    padding-top: 10px;
   }
 
   .blends-diffuser-content {
