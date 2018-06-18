@@ -62,10 +62,6 @@
   .diffuser-products .blends-diffuser {
     width: 90% !important;
     height: auto !important;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    margin-top: -15px !important;
     position: absolute !important;
     bottom: 100px !important;
     margin-left: auto !important;
