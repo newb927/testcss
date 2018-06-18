@@ -50,7 +50,8 @@
   }
 
   .diffuser-products .add-cart-product .add_to_cart_inline {
-    bottom: 3.222em !important;
+    top: 0;
+    bottom: 0 !important;
   }
 }
 
