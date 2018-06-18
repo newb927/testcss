@@ -1,6 +1,7 @@
 .place-order:after {
   content: "Buy with confidence.";
-  font-size: 0.67em;
+  font-size: .6667rem;
+  color: #000;
   margin-top: 25px;
   font-weight: bold;
   display: block;
@@ -9,7 +10,9 @@
 
 #payment:after {
   content: "MONQ offers an unconditional 30 day money back guarantee!";
-  font-size: 0.67em;
+  font-size: .6667rem;
+  font-weight: 400;
+  color: #000;
   margin-top: 5px;
   margin-bottom: 50px;
   line-height: 1.5em;
