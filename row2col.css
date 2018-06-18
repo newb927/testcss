@@ -57,6 +57,7 @@
 @media (max-width: 767px) {
   .diffuser-products {
     padding-bottom: 100px !important;
+    overflow: hidden;
   }
 
   .diffuser-products .blends-diffuser {
@@ -85,7 +86,7 @@
   }
 
   .diffuser-products .top-gradient {
-    height: 100% !important;
+    height: 101% !important;
     padding-left: 0px !important;
     -ms-transform: rotate(180deg);
     -webkit-transform: rotate(180deg);
