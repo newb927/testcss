@@ -60,25 +60,32 @@
   }
 
   .diffuser-products .blends-diffuser {
-    width: 100% !important;
+    width: 90% !important;
     height: auto !important;
-    /*-ms-flex-pack: center;*/
+    -ms-flex-pack: center;
     -webkit-justify-content: center;
     justify-content: center;
     margin-top: -15px !important;
     position: absolute !important;
     bottom: 100px !important;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    left: 0;
+    right: 0;
   }
 
   .diffuser-products .blends-diffuser img {
+        min-width: unset !important;
     max-width: 90% !important;
-    width: auto !important;
+    width: 100% !important;
     -webkit-transform: none !important;
     transform: none !important;
-    transform-origin: none;
-    margin-left: 0 !important;
-    margin-right: 0;
+    transform-origin: unset;
+    margin-left: auto !important;
+    margin-right: auto;
     position: unset !important;
+    display: block;
   }
 
   .diffuser-products .top-gradient {
