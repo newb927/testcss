@@ -2,6 +2,8 @@
   content: "Buy with confidence.";
   font-size: 0.67em;
   margin-top: 25px;
+  font-weight: bold;
+  text-align: center;
 }
 
 #payment:after {
@@ -10,4 +12,5 @@
   margin-top: 5px;
   margin-bottom: 55px;
   line-height: 1.5em;
+  text-align: center;
 }
