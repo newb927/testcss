@@ -10,10 +10,6 @@
   .diffuser-products .blends-diffuser {
     height: auto !important;
     width: 60% !important;
-    /*-ms-flex-pack: inherit;*/
-    -webkit-justify-content: inherit !important;
-    justify-content: inherit;
-
   }
 
   .diffuser-products .blends-diffuser img {
