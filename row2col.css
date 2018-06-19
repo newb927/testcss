@@ -126,7 +126,7 @@
     right: 0 !important;
   }
   
-  .diffuser-products .add-cart-product .add_to_cart_inline:focus-within {
+  .diffuser-products .add-cart-product .add_to_cart_inline:focus-within span {
    color: red !important; 
   }
   
