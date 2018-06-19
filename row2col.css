@@ -50,7 +50,7 @@
     bottom: 0 !important;
   }
   
-  .diffuser-products .add-cart-product .add_to_cart_inline:hover, .diffuser-products .add-cart-product .add_to_cart_inline:focus {
+  .diffuser-products .add-cart-product .add_to_cart_inline .button:hover, .diffuser-products .add-cart-product .add_to_cart_inline .button:focus {
    color: #fff;
    background-color: #000;
   }
