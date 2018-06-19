@@ -130,6 +130,10 @@
    color: red !important; 
   }*/
   
+  .diffuser-products .tile-link:focus span {
+    color red !important;
+  }
+  
   .diffuser-products .add-cart-product .add_to_cart_inline:hover, .diffuser-products .add-cart-product .add_to_cart_inline:focus {
    color: #fff; 
   }
