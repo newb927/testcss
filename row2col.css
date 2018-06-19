@@ -185,5 +185,9 @@ font-size: 16rem;
   color: #fff !important;
   border-right: 1px solid #fff !important;
   }
-
+  
+.diffuser-products.empty-placeholder {
+   padding-bottom: 0px !important;
+  }
+  
 }
