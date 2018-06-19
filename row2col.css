@@ -46,8 +46,7 @@
   }
 
   .diffuser-products .add-cart-product .add_to_cart_inline {
-    top: 0;
-    bottom: 0 !important;
+    bottom: 4em !important;
   }
   
   .diffuser-products .add-cart-product .add_to_cart_inline .button:hover, .diffuser-products .add-cart-product .add_to_cart_inline .button:focus {
