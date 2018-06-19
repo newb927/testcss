@@ -181,7 +181,7 @@ font-size: 16rem;
     bottom: 4em !important;
   }
   
-  .diffuser-products .add-cart-product .add_to_cart_inline .button:hover, .diffuser-products .add-cart-product .add_to_cart_inline .button:focus {
+  .diffuser-products .add-cart-product .add_to_cart_inline .button:hover, .diffuser-products .add-cart-product .add_to_cart_inline .button:focus, .diffuser-products .add-cart-product .add_to_cart_inline .button:active {
    color: #fff;
    background-color: #000;
   }
