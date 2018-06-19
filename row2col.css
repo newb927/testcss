@@ -180,5 +180,10 @@ font-size: 16rem;
     line-height: 1rem;
     left: auto;
   }
+  
+.test-span-focused {
+  color: #fff;
+  border-right: 1px solid #fff;
+  }
 
 }
