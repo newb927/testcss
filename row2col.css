@@ -70,8 +70,7 @@
   }
 
   .diffuser-products .blends-diffuser img {
-        min-width: unset !important;
-    max-width: 90% !important;
+    max-width: 100% !important;
     width: 100% !important;
     -webkit-transform: none !important;
     transform: none !important;
