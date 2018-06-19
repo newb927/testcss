@@ -54,6 +54,11 @@
    background-color: #000;
   }
   
+  .diffuser-products.empty-placeholder {
+   padding-top: 0px !important;
+   padding-bottom: 0px !important;
+  }
+  
 }
 
 @media (max-width: 767px) {
