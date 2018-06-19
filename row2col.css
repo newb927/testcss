@@ -182,8 +182,8 @@ font-size: 16rem;
   }
   
 .test-span-focused {
-  color: #fff;
-  border-right: 1px solid #fff;
+  color: #fff !important;
+  border-right: 1px solid #fff !important;
   }
 
 }
