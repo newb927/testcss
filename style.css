@@ -45,7 +45,7 @@
   margin: 0 7px 0 0;
 }
 
-#persistent-footer ul li span.contact-icon>span {
+#persistent-footer ul li span.contact-icon>span:not(:last-child) {
   width: 20px; 
 }
 
