@@ -104,6 +104,7 @@ background-size: 100%;
 #testContactModal {
   height: 100%;
   background: #fff;
+  z-index: -5;
 }
 
 @media (max-width: 991px) {
@@ -119,7 +120,7 @@ background-size: 100%;
 }
 
 .test-modal-active {
-  display: block;
+  z-index: 1050;
 }
 
 .test-modal-active .modal-dialog.test {
