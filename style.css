@@ -45,6 +45,14 @@
   margin: 0 7px 0 0;
 }
 
+#persistent-footer ul li span.contact-icon>span {
+  width: 20px; 
+}
+
+#persistent-footer ul li span.save-icon {
+ margin: 0; 
+}
+
 /*#persistent-footer ul li a {
   border-left: 1px solid #a9a9a9;
   text-decoration: none;
