@@ -118,11 +118,11 @@ background-size: 100%;
   transition: transform .3s ease-out;
 }
 
-#test-ContactModal.test-modal-active {
+.test-modal-active {
   display: block;
 }
 
-#test-ContactModal.test-modal-active .modal-dialog {
+.test-modal-active .modal-dialog {
   transform: translate(0,0);
 }
 
