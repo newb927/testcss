@@ -101,6 +101,11 @@ background-size: 100%;
 
 /*** Begin Test Contact Modal Styles ***/
 
+#testContactModal {
+  height: 100%;
+  background: #fff;
+}
+
 @media (max-width: 991px) {
   #testContactModal {
     overflow-y: auto;
