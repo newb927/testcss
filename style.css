@@ -107,7 +107,11 @@ background-size: 100%;
   }
 }
 
-#testContactModal .modal-dialog {
+#test-ContactModal .modal-dialog {
+  margin: 0;
+}
+
+#testContactModal .modal-content {
   border: 0;
   border-radius: 0;
 }
@@ -140,6 +144,7 @@ background-size: 100%;
 
 #testContactModal .b-contactform__reasons {
   padding: 0;
+  margin: 0;
 }
 
 #testContactModal .modal-body {
