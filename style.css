@@ -116,7 +116,7 @@ background-size: 100%;
 
 .modal-dialog.test {
   margin: 0;
-  transform: translate(0,-100%);
+  transform: translate(0,-25%);
   transition: transform .3s ease-out;
 }
 
