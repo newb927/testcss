@@ -64,6 +64,10 @@ background: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' view
  margin: 0; 
 }
 
+#persistent-footer ul li span.save-icon-text {
+ display: none; 
+}
+
 /*#persistent-footer ul li a {
   border-left: 1px solid #a9a9a9;
   text-decoration: none;
