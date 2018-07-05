@@ -37,6 +37,10 @@
   justify-content: center;
 }
 
+#persistent-footer ul li a, #persistent-footer ul li a:focus {
+  color: #333;
+}
+
 #persistent-footer ul li span[class$="-icon"] {
   margin: 0 7px 0 0;
 }
