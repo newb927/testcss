@@ -38,8 +38,8 @@
   justify-content: center;
 }
 
-#persistent-footer ul li a, #persistent-footer ul li a:focus {
-  color: #333;
+#persistent-footer ul li.compare-action {
+  display: none;
 }
 
 #persistent-footer ul li span[class$="-icon"] {
