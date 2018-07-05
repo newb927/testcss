@@ -70,28 +70,7 @@ background-size: 100%;
  display: none; 
 }
 
-/*#persistent-footer ul li a {
-  border-left: 1px solid #a9a9a9;
-  text-decoration: none;
-  display: block;
-  padding: 0.85em 0.65em;
-  display: flex;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-align-items: center;
-  align-items: center;
-}
-
-#persistent-footer ul li span {
-  font-size: 12px;
-  white-space: nowrap;
-  font-family: Gotham, Arial, sans-serif;
-  color: #333;
-}
-
-#persistent-footer ul li:first-child a {
-  border: 0 none;
-}*/
+/*** Possible Dynamic Length Labels ***/
 
 #persistent-footer a .short-text {
   display: none;
@@ -110,6 +89,8 @@ background-size: 100%;
   }
 }
 
+/*** End Possible Dynamic Length Labels ***/
+
 #persistent-footer ul li a, #persistent-footer ul li a:focus {
     color: #333;
 }
@@ -118,16 +99,17 @@ background-size: 100%;
   color: #fb6418;
 }
 
+/*** Begin Test Contact Modal Styles ***/
+
 @media (max-width: 991px) {
   #testContactModal {
     overflow-y: auto;
   }
 }
 
-.modal-title.test {
-  font-size: 22px;
-  font-weight: 300;
-  padding: 0;
+#testContactModal .modal-dialog {
+  border: 0;
+  border-radius: 0;
 }
 
 #testContactModal .b-contactform__prompt {
@@ -182,3 +164,5 @@ background-size: 100%;
 #testContactModal .b-contactform__compliance > * {
   width: auto;
 }
+
+/*** End Test Contact Modal Styles ***/
