@@ -121,7 +121,7 @@ background-size: 100%;
 }
 
 .test-modal-active {
-  z-index: 1050;
+  z-index: 1050 !important;
 }
 
 .test-modal-active .modal-dialog.test {
