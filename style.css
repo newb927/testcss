@@ -101,6 +101,10 @@ background-size: 100%;
 
 /*** Begin Test Contact Modal Styles ***/
 
+header.ctcore-header {
+ background: #fff; 
+}
+
 #testContactModal {
   height: 100%;
   background: #fff;
