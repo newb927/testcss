@@ -12,6 +12,7 @@
   width: 100%;
   color: #333;
   top: unset;
+  display: block;
 }
 
 #persistent-footer ul {
