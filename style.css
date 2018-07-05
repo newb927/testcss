@@ -104,6 +104,7 @@ background-size: 100%;
 #testContactModal {
   height: 100%;
   background: #fff;
+  display: block;
 }
 
 @media (max-width: 991px) {
