@@ -119,6 +119,7 @@ background-size: 100%;
 #testContactModal .modal-content {
   border: 0;
   border-radius: 0;
+  box-shadow: none;
 }
 
 #testContactModal .b-contactform__prompt {
