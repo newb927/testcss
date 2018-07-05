@@ -45,8 +45,12 @@
   margin: 0 7px 0 0;
 }
 
-#persistent-footer ul li span.contact-icon>span:not(:last-child) {
+#persistent-footer ul li span.contact-icon>span {
   width: 20px; 
+}
+
+#persistent-footer ul li span.contact-icon>span:last-child {
+  width: 14px;
 }
 
 #persistent-footer ul li span.test-phone-icon {
