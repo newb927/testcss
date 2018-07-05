@@ -118,7 +118,7 @@ background-size: 100%;
   transition: transform .3s ease-out;
 }
 
-#test-ContactModal .modal.in .modal-dialog {
+#test-ContactModal.test-modal-active .modal-dialog {
   transform: translate(0,0);
 }
 
