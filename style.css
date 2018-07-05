@@ -110,18 +110,9 @@ background-size: 100%;
   }
 }
 
-/*#persistent-footer ul li a i {
-  color: #72a9bd;
-  font-style: normal;
-  speak: none;
-  font-size: 20px;
-  margin-right: 7px;
-  position: unset;
+#persistent-footer ul li a, #persistent-footer ul li a:focus {
+    color: #333;
 }
-
-#persistent-footer ul li a:focus i {
-  color: #fb6418;
-}*/
 
 #persistent-footer ul li a:focus span[class$="-icon"] {
   color: #fb6418;
