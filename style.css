@@ -116,7 +116,7 @@ header.ctcore-header {
 #testContactModal {
   height: 100%;
   background: #fff;
-  z-index: -5;
+  top: -100%;
   display: block;
 }
 
@@ -133,7 +133,7 @@ header.ctcore-header {
 }
 
 .test-modal-active {
-  z-index: 1050 !important;
+  top: 0;
 }
 
 .test-modal-active .modal-dialog.test {
