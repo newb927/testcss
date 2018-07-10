@@ -66,8 +66,10 @@ background-size: 100%;
  margin: 0 0 3px 0; 
 }
 
+@media (max-width: 420px) {
 #persistent-footer ul li span.save-icon-text {
  display: none; 
+  }
 }
 
 /*** Possible Dynamic Length Labels ***/
