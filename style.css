@@ -133,7 +133,7 @@ header.ctcore-header {
 }
 
 .test-modal-active {
-  top: 0;
+  top: 0 !important;
 }
 
 .test-modal-active .modal-dialog.test {
