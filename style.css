@@ -70,6 +70,8 @@ background-size: 100%;
 #persistent-footer ul li span.save-icon-text {
  display: none; 
   }
+#persistent-footer ul li span.save-icon {
+ margin: 0 8px 3px 0;
 }
 
 /*** Possible Dynamic Length Labels ***/
