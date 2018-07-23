@@ -4,6 +4,7 @@
   bottom: 0;
   width: 100%;
   z-index: 15;
+  transition: bottom .5s;
 }
 
 #persistent-footer .community-options {
@@ -202,16 +203,11 @@ header.ctcore-header {
 
 /*** End Test Contact Modal Styles ***/
 
-#persistent-footer {
-  transition: bottom .5s;
+#persistent-footer.unpinned {
   bottom: -70px;
 }
 
-#persistent-footer.unpinned {
-  bottom: 0px;
-}
-
-.test-fixed-footer {
-  position: absolute: 
-  bottom: 0px; 
+.test-static-footer {
+  position: relative;
+  bottom: -20px;
 }
