@@ -210,8 +210,7 @@ header.ctcore-header {
 
 .test-static-footer {
   position: relative !important;
-  bottom: -20px !important;
-  transition: bottom 0s !important;
+  margin-top: 20px;
 }
 
 .test-static-footer .community-options {
