@@ -201,3 +201,17 @@ header.ctcore-header {
 }
 
 /*** End Test Contact Modal Styles ***/
+
+#persistent-footer {
+  transition: transform .5s;
+  transform: translateY(100%);
+}
+
+#persistent-footer.unpinned {
+  transform: translateY(-100%);
+}
+
+.test-fixed-footer {
+  position: absolute: 
+  bottom: 0px; 
+}
