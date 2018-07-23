@@ -208,7 +208,7 @@ header.ctcore-header {
 }
 
 #persistent-footer.unpinned {
-  bottom: 70px;
+  bottom: 0px;
 }
 
 .test-fixed-footer {
