@@ -204,7 +204,7 @@ header.ctcore-header {
 
 /*** End Test Contact Modal Styles ***/
 
-row--hybrid svg {
+.row--hybrid svg {
   display: none;
 }
 
