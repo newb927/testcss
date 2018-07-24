@@ -204,6 +204,10 @@ header.ctcore-header {
 
 /*** End Test Contact Modal Styles ***/
 
+row--hybrid svg {
+  display: none;
+}
+
 #persistent-footer.unpinned {
   bottom: -70px;
 }
