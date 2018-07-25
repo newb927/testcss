@@ -100,27 +100,6 @@ background-size: 100%;
   }
 }
 
-/*** Possible Dynamic Length Labels ***/
-
-#persistent-footer a .short-text {
-  display: none;
-}
-
-#persistent-footer a .long-text {
-  display: block;
-}
-
-@media only screen and (max-width: 359px) {
-  #persistent-footer a .long-text {
-    display: none;
-  }
-  #persistent-footer a .short-text {
-    display: block;
-  }
-}
-
-/*** End Possible Dynamic Length Labels ***/
-
 #persistent-footer ul li a, #persistent-footer ul li a:focus {
     color: #333;
 }
