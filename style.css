@@ -72,12 +72,12 @@ background-size: 100%;
   display: none;
 }
 
-#persistent-footer li>li>li>li {
+#persistent-footer li:last-of-type {
   max-width: 69px;
 }
 
 @media (min-width: 421px) {
-  #persistent-footer li>li>li>li {
+  #persistent-footer li:last-of-type {
   max-width: 200px;
   }
 }
