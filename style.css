@@ -247,3 +247,7 @@ header.ctcore-header {
 .test-static-footer .community-options {
   border-bottom: 1px solid #ccc;
 }
+
+footer.footer {
+  margin-bottom: 30px;
+}
