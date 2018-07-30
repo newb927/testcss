@@ -151,22 +151,6 @@ header.ctcore-header {
   display: none;
 }
 
-#test-modal-close {
-    font-weight: 100;
-    font-size: 40px;
-    opacity: 1;
-    color: #7d7d7d;
-}
-
-.b-contactform__form {
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-#testContactModal .modal-title {
-  line-height: 1.8;
-}
-
 /*End add these */
 
 #testContactModal .b-contactform__prompt {
