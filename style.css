@@ -1,20 +1,21 @@
 #persistent-footer {
   position: fixed;
   left: 0;
-  bottom: 0;
+  top: 70px;
   width: 100%;
   z-index: 15;
-  transition: bottom .5s;
 }
 
 #persistent-footer .community-options {
   background: #fff;
   width: 100%;
   color: #333;
-  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
   top: unset;
   display: block;
   overflow-y: hidden;
+  transform: translateY(-100%);
+  transition: transform .5s ease-in-out;
 }
 
 #persistent-footer ul {
@@ -82,12 +83,6 @@ background-size: 100%;
   }
 }
 
-@media (min-width: 768px) {
-  #return-to-top.rtt-show {
-    display: none;
-  }
-}
-
 @media (max-width: 420px) {
 #persistent-footer ul li span.save-icon-text {
  display: none; 
@@ -116,7 +111,6 @@ header.ctcore-header {
 
 #testContactModal {
   height: 100%;
-  background: #fff;
   top: -100%;
   display: block;
 }
@@ -128,15 +122,14 @@ header.ctcore-header {
 }
 
 .modal-dialog.test {
-  margin: 0;
   transform: translate(0,-25%);
   transition: transform .3s ease-out;
 }
 
 @media (min-width: 768px) {
-  .modal-dialog .test {
-    width: auto;
-    margin: 30px auto;
+  .modal-dialog.test {
+    width: auto !important;
+    margin: 0px auto !important;
   }
 }
 
@@ -146,12 +139,6 @@ header.ctcore-header {
 
 .test-modal-active .modal-dialog.test {
   transform: translate(0,0);
-}
-
-#testContactModal .modal-content {
-  border: 0;
-  border-radius: 0;
-  box-shadow: none;
 }
 
 #testContactModal .b-contactform__prompt {
@@ -214,8 +201,8 @@ header.ctcore-header {
   display: none;
 }
 
-#persistent-footer.unpinned {
-  bottom: -70px;
+#persistent-footer .community-options.unpinned {
+  transform: translateY(0%);
 }
 
 .test-static-footer {
@@ -226,7 +213,12 @@ header.ctcore-header {
 .test-static-footer .community-options {
   border-bottom: 1px solid #ccc;
 }
+  
+.progressive-bar {
+ transform: translateY(0%);
+ transition: transform .5s ease-in-out;
+}
 
-footer.footer {
-  margin-bottom: 30px;
+.progressive-bar.test-active {
+ transform: translateY(70px);
 }
